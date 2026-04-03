@@ -1,0 +1,50 @@
+.auth-gateway {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-gateway h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.auth-gateway form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-gateway form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-gateway form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-gateway form button:hover {
+  background-color: #3e8e41;
+}
+
+.auth-gateway a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.auth-gateway a:hover {
+  color: #23527c;
+}
